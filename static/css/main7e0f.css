@@ -7333,7 +7333,7 @@ body {
 #logo {
     position: relative;
     float: left;
-    background: #ef4135;
+    /* background: #ef4135; */
     width: 82px;
     height: 82px
 }
@@ -7344,7 +7344,7 @@ body {
     left: 0%;
     width: 82px;
     height: 82px;
-    background: url("../img/logo-degordian_d%402x.png") no-repeat;
+    background: url("../img/syn-title.png") no-repeat;
     background-size: 82px 82px
 }
 
@@ -8876,7 +8876,7 @@ footer, .footer {
 footer .footer-logo, .footer .footer-logo {
     width: 143px;
     height: 50px;
-    background: url("../img/sprite.png") no-repeat 0 0;
+    background: url("../img/Synergy_Logo2.png") no-repeat 0 0;
     float: left;
     margin-left: 90px;
     position: relative
@@ -10003,3 +10003,13 @@ footer:after, .footer:after {
         display: none
     }
 }
+
+/* .syn18{
+    color: #f65078;
+}
+/* .syn18:nth-letter(1){
+    color: #f65078;
+}
+.syn18:nth-letter(2){
+    color: #f65078;
+} */ 
