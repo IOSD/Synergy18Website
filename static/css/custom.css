@@ -1,3 +1,21 @@
 .events-font-size{
     font-size: 25px;
 }
+
+.md-modal {
+    position: fixed;
+    top : 0;
+    left: 0;
+    animation: zoomIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+@keyframes zoomIn {
+    0% {
+        overflow: hidden;
+        transform: scale(0);
+    }
+    100% {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        transform: scale(1);
+    }
+}
