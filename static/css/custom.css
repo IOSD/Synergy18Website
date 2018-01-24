@@ -1,3 +1,20 @@
+@media screen and (min-width: 800px) {
+
+    .width-25 {
+        width: 25% !important;
+    }
+
+    .width-33 {
+        width: 33% !important;
+    }
+
+}
+
+.tt-wrap li {
+    font-size: 1.5vh;
+}
+
+
 .events-font-size{
     font-size: 25px;
 }
@@ -8,6 +25,10 @@
     left: 0;
     animation: zoomIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
+
+
+
+
 @keyframes zoomIn {
     0% {
         overflow: hidden;
@@ -18,4 +39,44 @@
         overflow-x: hidden;
         transform: scale(1);
     }
+}
+
+
+
+.tt-inner {
+    background:url('https://content.screencast.com/users/manishsahani/folders/Default/media/fe7b90c4-eb1c-4efe-b55a-fbf233cb2125/hexagon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tt-style ul {
+    list-style: none;
+}
+.tt-wrap li.tt-li-time {
+    color: #bbbbbb;
+    font-family: 'futura-pt';
+    text-align: center;
+    padding-right: 50px;
+    text-transform: capitalize;
+
+
+
+}
+li.tt-li-para {
+    color: white;
+    text-align: center;
+    font-family: 'futura-pt';
+    padding-right: 60px;
+    padding-right: 20px;
+    padding-bottom: 9px;
+}
+h4.day-t{
+    padding: 10px;
+    font-family: 'futura-pt';
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
 }
