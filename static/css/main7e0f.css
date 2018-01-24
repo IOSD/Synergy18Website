@@ -8459,6 +8459,7 @@ body {
     overflow: hidden;
     padding: 60px 0
 }
+
 .page-section {
     padding: 60px;
     background-color: #b3b6bd;
@@ -8565,6 +8566,7 @@ body {
         bottom: 15px
     }
 }
+
 
 .timetable-wrapper .before-lunch:after, .timetable-wrapper .after-lunch:after {
     content: "\0020";
@@ -8874,6 +8876,43 @@ body {
     padding-bottom: 20px;
     color: #7c7c7c
 }
+.tt-inner {
+    background:url('https://content.screencast.com/users/manishsahani/folders/Default/media/fe7b90c4-eb1c-4efe-b55a-fbf233cb2125/hexagon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.tt-style ul {
+    list-style: none;
+}
+.tt-wrap li.tt-li-time {
+    color: #bbbbbb;
+    font-family: 'futura-pt';
+    text-align: center;
+    padding-right: 50px;
+    text-transform: capitalize;
+
+
+
+}
+ li.tt-li-para {
+    color: white;
+    text-align: center;
+    font-family: 'futura-pt';
+    padding-right: 60px;
+    padding-right: 20px;
+    padding-bottom: 9px;
+}
+h4.day-t{ 
+padding: 10px;
+font-family: 'futura-pt';
+font-weight: 200;
+font-size: 30px;
+text-align: center;
+color: white;
+padding-top: 20px; 
+ }
+
 
 .page-section {
   padding-bottom: 70px;
