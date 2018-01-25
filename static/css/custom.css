@@ -56,6 +56,7 @@
 .tt-wrap li.tt-li-time {
     color: #bbbbbb;
     font-family: 'futura-pt';
+    font-size: 12px;
     text-align: center;
     padding-right: 50px;
     text-transform: capitalize;
@@ -67,9 +68,9 @@ li.tt-li-para {
     color: white;
     text-align: center;
     font-family: 'futura-pt';
-    padding-right: 60px;
-    padding-right: 20px;
+    padding-right: 50px;
     padding-bottom: 9px;
+    font-size: 14px;
 }
 h4.day-t{
     padding: 10px;
@@ -78,5 +79,5 @@ h4.day-t{
     font-size: 30px;
     text-align: center;
     color: white;
-    padding-top: 20px;
+    padding-top: 30px;
 }
