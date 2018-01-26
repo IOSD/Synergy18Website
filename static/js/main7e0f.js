@@ -260,11 +260,11 @@ var ModalEffects = {
                         document.title = 'Lectures | Degordian Academy';
                     }
                 });
-                $(close2).click(function (ev) {
-                    ev.preventDefault();
-                    ev.stopPropagation();
-                    removeModalHandler();
-                });
+                // $(close2).click(function (ev) {
+                //     ev.preventDefault();
+                //     ev.stopPropagation();
+                //     removeModalHandler();
+                // });
                 $(close3).click(function (ev) {
                     ev.preventDefault();
                     ev.stopPropagation();
@@ -397,17 +397,17 @@ var main = (function ($) {
                     ease: DAnimation.bezier(0.14, 0.46, 0, 0.95)
                 });
             });
-            $('.confirm').click(function (e) {
-                e.preventDefault();
-                $('.overlay').removeClass('show');
-                tmEvent('Buttons', 'Click', 'Confirm spot');
-                TweenLite.to($('.lectures-wrapper'), 0.5, {css: {left: '130%'}, ease: Power2.easeOut, delay: 0.2});
-                TweenLite.to($("html, body"), 0.8, {
-                    scrollTop: $('.form-wrapper').offset().top,
-                    delay: 0.7,
-                    ease: Power2.easeInOut
-                });
-            });
+            // $('.confirm').click(function (e) {
+            //     e.preventDefault();
+            //     $('.overlay').removeClass('show');
+            //     tmEvent('Buttons', 'Click', 'Confirm spot');
+            //     TweenLite.to($('.lectures-wrapper'), 0.5, {css: {left: '130%'}, ease: Power2.easeOut, delay: 0.2});
+            //     TweenLite.to($("html, body"), 0.8, {
+            //         scrollTop: $('.form-wrapper').offset().top,
+            //         delay: 0.7,
+            //         ease: Power2.easeInOut
+            //     });
+            // });
             $('.view-link').click(function (e) {
                 e.preventDefault();
                 $('.overlay').removeClass('show');
